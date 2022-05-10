@@ -1,0 +1,12 @@
+Thur April 21 2022
+Started with https://formy-project.herokuapp.com url .. can be found at config
+Created  page model structure in Maven folder structure
+Created config file in eclipse itself and also completed base, but need to revise once
+___________________
+Sat April 23 2022
+Continued on to creating Checkboxes page, DropDown DragDropPage
+idea is to be able to click couple of check boxes, navigate away to Dropdown page and then
+ from there go Drag and drop page. The Drag and drop page needs to be connected
+  by creating DragDropPage class, which is yet to be coded. 
+  
+  CheckBoxes >> DropDown >> DragDropPage

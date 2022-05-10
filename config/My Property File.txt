@@ -1,0 +1,4 @@
+browser = chrome
+url = https://formy-project.herokuapp.com
+name = Richard
+Timeout = 10

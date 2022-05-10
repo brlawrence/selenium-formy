@@ -26,11 +26,11 @@ public class FillForm extends Base {
 		PageFactory.initElements(driver,this);
 	}
 	String address1 = "Richard Bernard";
-	String streetNumber1 = "9032";
-	String street1 = "E Karen Drive";
-	String city1 = "Scottsdale";
-	String state1 = "AZ";
-	String zipCode1 = "86260";
+	String streetNumber1 = "9712";
+	String street1 = "E Oakridge Drive";
+	String city1 = "Berkley";
+	String state1 = "CA";
+	String zipCode1 = "94720";
 	String country1 = "USA";
 
 	public void fillForm() {

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-09T13:36:12 MST" name="Default suite" finished-at="2022-05-09T13:36:29 MST" duration-ms="16692">
+    <groups>
+    </groups>
+    <test started-at="2022-05-09T13:36:12 MST" name="Default test" finished-at="2022-05-09T13:36:29 MST" duration-ms="16692">
+      <class name="richard.selenium.test.FullSequenceTest">
+        <test-method is-config="true" signature="sequenceOfActions()[pri:0, instance:richard.selenium.test.FullSequenceTest@7e0b85f9]" started-at="2022-05-09T13:36:12 MST" name="sequenceOfActions" finished-at="2022-05-09T13:36:18 MST" duration-ms="6174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sequenceOfActions -->
+        <test-method signature="sequence1()[pri:0, instance:richard.selenium.test.FullSequenceTest@7e0b85f9]" started-at="2022-05-09T13:36:18 MST" name="sequence1" finished-at="2022-05-09T13:36:28 MST" duration-ms="10444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sequence1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:richard.selenium.test.FullSequenceTest@7e0b85f9]" started-at="2022-05-09T13:36:28 MST" name="teardown" finished-at="2022-05-09T13:36:29 MST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- richard.selenium.test.FullSequenceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
