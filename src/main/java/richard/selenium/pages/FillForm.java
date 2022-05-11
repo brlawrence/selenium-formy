@@ -1,6 +1,8 @@
 package richard.selenium.pages;
 import richard.selenium.base.Base;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 //import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -33,7 +35,7 @@ public class FillForm extends Base {
 	String zipCode1 = "94720";
 	String country1 = "USA";
 
-	public void fillForm() {
+	public void fillForm() throws Exception {
 	address.sendKeys(address1);
 	streetNumber.sendKeys(streetNumber1);
 	street.sendKeys(street1);
@@ -41,5 +43,14 @@ public class FillForm extends Base {
 	state.sendKeys(state1);
 	zipCode.sendKeys(zipCode1);
 	country.sendKeys(country1);
+	country.sendKeys(Keys.TAB);
+	Thread.sleep(2000);
+	scrollup();
+	
+	}
+	private void scrollup() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,-90)","");
+		js.executeScript("window.alert('Did the scroll work?')");
 	}
 }

@@ -27,11 +27,11 @@ public void sequenceOfActions() throws Exception {
 
 @Test
 public void sequence1() throws Exception {
-	CheckBoxes checkboxes = startpage.startPage();
-	DragDropPage ddp = checkboxes.checkboxPage();
+	CheckBoxes checkboxes = startpage.startPage(); //start page method lands on check boxes
+	DragDropPage ddp = checkboxes.checkboxPage();  // check box page lands on to Drag and drop page
 	driver.navigate().refresh();
 	ddp.performDragDrop();
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 	GetForm gf = new GetForm();
 	gf.goToform();
 	Thread.sleep(1000);
